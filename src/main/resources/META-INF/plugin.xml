@@ -12,6 +12,6 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <gotoDeclarationHandler implementation="com.github.lilgallon.protobufquicknav.handlers.ProtobufGotoDeclarationHandler" />
+        <psi.declarationProvider implementation="com.github.lilgallon.protobufquicknav.handlers.ProtobufSymbolDeclarationProvider" />
     </extensions>
 </idea-plugin>
